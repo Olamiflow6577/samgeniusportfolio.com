@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    color: rgb(233, 233, 171);
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    position: sticky;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    position: sticky;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    color: aliceblue;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.logo img{
+    position: relative;
+    width: 60px;
+    height: 70px;
+    left: 15px;
+    top: -10px;
+}
+.row1{
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(41, 59, 172);
+    width: 100%;
+    top: 0px;
+}
+a{
+    color: rgb(243, 232, 232);
+}
+#imagebg{
+    z-index: -1;
+    position: relative;
+    height: 30%;
+    width: 100%;
+    top: -500px;
+    border-radius: 30px;
+}
+.contact_me{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    -webkit-text-stroke: 2px #000;
+}
+.image-link{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 970px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #000;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    border-radius: 40px;
+}
+#image_link{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+}
+.myself{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(93, 156, 196);
+    height: 900px;
+    top: auto;
+}
+.title{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke: 2px rgb(241, 9, 9);
+
+}
+.aboutme{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 150px;
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+}
+.pics2{
+    border: solid;
+    border-color: white;
+    background-color: blue;
+    position: absolute;
+    margin-left: 600px;
+    top: 140px;
+    width: 30%;
+}
+.invisible-pics{
+    position: absolute;
+    border: solid;
+    border-color: white;
+    box-sizing: border-box;
+    width: 30%;
+    height: 44%;
+    margin-left: 570px;
+    margin-top: 160px;
+}
+.logos{
+    position: relative;
+    top: 500px;
+    background-color: #000;
+    color: rgb(231, 185, 185);
+    font-size: 14px;
+}
+.pics{
+    background: rgb(24, 22, 5);
+    border-radius: 30px;
+    padding: 0px 0 0px 0;
+}
+.button .icon :nth-child(1){
+    color: white;
+}
+.social-links1{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links1:hover {
+    filter: opacity(100%);
+}
+.social-links2{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links2:hover {
+    filter: opacity(100%);
+}
+.social-links3{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links3:hover {
+    filter: opacity(100%);
+}
+.social-links4{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links4:hover {
+    filter: opacity(100%);
+}
+.social-links5{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links5:hover {
+    filter: opacity(100%);
+}
+.logos hr{
+    border: none;
+    background: red;
+    height: 1px;
+    margin: 20px 0; 
+}
+.copyright{
+    text-align: center;
+    color: aliceblue;
+}
+.social{
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+#b-logo{
+    position: relative;
+    width: 10%;
+
+}
+.follow{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: x-large;
+    background-color: blue;
+}
+.icon-animation{
+    text-align: center;
+    text-decoration-color:blue;
+    display: inline-block;
+}
+#facebook{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: blue;
+}
+#instagram{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: magenta;
+}
+#twitter{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(39, 39, 187);
+}
+#whatsapp{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: green;
+}

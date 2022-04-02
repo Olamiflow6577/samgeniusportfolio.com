@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://fonts.googleis.com??family=Popp ins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="row1">
+        <div class="row1-fixed">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/New logo.png">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="image-background">
+        <h1 class="contact_me">Contact Me</h1>
+        <p class="image-link"><a href="index.html" id="image_link">Home</a>|<a href="contact.html" id="image_link">Contact</a></p>
+
+        <img src="images/background (2).jpg" id="imagebg">
+    </div>
+    <section class="contact_area section_gap">
+        <div class="container">
+            <div class="contact_info">
+                <div class="info_item">
+                    <i class="lnr lnr-home"></i>
+                    <h6>Ogun State, Nigeria</h6>
+                    <p>Obafemi Owode Local Government</p>
+                </div>
+                <div class="info_item">
+                    <i class="lnr lnr-phone-handset"></i>
+                    <h6><a href="2348165772049">+2348165772049</a></h6>
+                    <p>Mon to Sat 9am to 6 pm</p>
+                </div>
+                <div class="info_item">
+                    <i class="lnr lnr-envelope"></i>
+                    <h6><a href="#">olamiflowsamsax13@gmail.com</a></h6>
+                    <p>Send us your query anytime!</p>
+                </div>
+            </div>
+            <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
+                        novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject" required>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button type="submit" value="submit" class="primary-btn"><span>Send Message</span></button>
+                        </div>
+            </form>
+        </div>
+    </section>
+
+    <!--google map-->
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="967" height="479" id="gmap_canvas" src="https://maps.google.com/maps?q=Ibafo&t=k&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://123movies-to.org"></a><br>
+            <style>.mapouter{position:relative;text-align:right;height:479px;width:923px;}</style>
+            <a href="https://www.embedgooglemap.net">how to embed a google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:479px;width:923px;}
+            </style>
+        </div>
+    </div>
+
+    <div class="logos">    
+        <div class="social">
+            <img src="images/New logo.png" id="b-logo">
+            <ul class="follow">
+                <li><a href="#">Follow Me</a></li>
+            </ul>
+            <div class="icon-animation">
+                <div class="button">
+                    <div class="icon">
+                        <a href="https://facebook.com/samgenius13/" class="social-links1"><i class="fa fa-facebook" id="facebook"></i>
+                        <span>Facebook</span></a>
+                        <a href="https://instagram.com/samgenius_s.m.g/" class="social-links2"><i class="fa fa-instagram" id="instagram"></i>
+                        <span>Instagram</span></a>
+                        <a href="https://twitter.com/olamide_sax" class="social-links3"><i class="fa fa-twitter" id="twitter"></i>
+                        <span>Twitter</span></a>
+                        <a href="https://wa.me/08165772049" class="social-links4"><i class="fa fa-whatsapp" id="whatsapp"></i>
+                        <span>Whatsapp</span></a>
+                        <a href="https://github.com/Olamiflow6577" class="social-links4"><i class="fa fa-github" id="github"></i>
+                        <span>Github</span></a>
+                 </div>
+            </div>
+        </div>
+        <hr>
+            <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script>  All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Sam-Genius</a> </p>
+    </div>
+
+    <script>
+        window.AcquaintedWidgetDomain = 'https://getacquainted.co';
+        window.AcquaintedWidgetId = 'cfe8b205-3dec-4cdb-b412-1ba63abb2f1b';
+        var s = document.createElement('script'); 
+        s.src = AcquaintedWidgetDomain + '/js/widget-loader.js';
+        s.async = true;
+        document.body.appendChild(s);
+    </script>
+    
+</body>
+</html>

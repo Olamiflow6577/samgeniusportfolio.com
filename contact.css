@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    color: rgb(233, 233, 171);
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    position: sticky;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    position: sticky;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    color: aliceblue;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.logo img{
+    position: relative;
+    width: 60px;
+    height: 70px;
+    left: 15px;
+    top: -10px;
+}
+.row1{
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(41, 59, 172);
+    width: 100%;
+    top: 0px;
+}
+a{
+    color: rgb(243, 232, 232);
+}
+#imagebg{
+    z-index: -1;
+    position: relative;
+    height: 30%;
+    width: 100%;
+    top: -500px;
+    border-radius: 30px;
+}
+.contact_me{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    -webkit-text-stroke: 2px #000;
+}
+.image-link{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 970px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #000;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    border-radius: 40px;
+}
+#image_link{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+}
+
+/*--contact link start*/
+.contact_info .info_item {
+    position: relative;
+    padding-left: 45px; 
+}
+.contact_info .info_item i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  line-height: 24px;
+  color: #e45447;
+  font-weight: 600; 
+}
+.contact_info .info_item h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #0a2391; 
+}
+.contact_info .info_item h6 a {
+    color: #0a2391; 
+}
+.contact_info .info_item p {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 2px 0px; 
+}
+.contact_form .form-group {
+    margin-bottom: 10px; 
+}
+.contact_form .form-group .form-control {
+    font-size: 13px;
+    line-height: 26px;
+    color: rgb(29, 27, 27);
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 80px;
+    opacity: 70%; 
+}
+.contact_form .form-group .form-control:hover{
+    opacity: 100%;
+}
+.contact_form .form-group .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_form .form-group .form-control.placeholder {
+    color: rgb(0, 0, 0); 
+}
+
+.contact_form .form-group textarea {
+    resize: none; 
+}
+.contact_form .form-group textarea.form-control {
+    height: 110px;
+    width: 400px; 
+}
+.contact_form .primary-btn {
+    position: absolute;
+    background: #e45447;
+    color: #fff;
+    margin-left: 74%;
+    top: 630px;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+.contact_form .primary-btn:hover {
+    color: #000;
+    border: 2px solid #90acd1;
+    background: transparent; 
+}
+.col-md-6{
+    position: absolute;
+    margin-left: 400px;
+    top: 500px;
+}
+.contact_info{
+    position: absolute;
+    top: 500px;
+}
+.col-md-7{
+    position: absolute;
+    margin-left: 700px;
+    top: 500px;
+    width: px;
+}
+
+/*--contact link end--*/      
+.mapouter{
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: -200px;
+    left: 200px;
+    max-width: fit-content;
+}
+
+.logos{
+    position: relative;
+    top: 500px;
+    background-color: #000;
+    color: rgb(231, 185, 185);
+    font-size: 14px;
+}
+.pics{
+    background: rgb(24, 22, 5);
+    border-radius: 30px;
+    padding: 0px 0 0px 0;
+}
+.button .icon :nth-child(1){
+    color: white;
+}
+.social-links1{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links1:hover {
+    filter: opacity(100%);
+}
+.social-links2{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links2:hover {
+    filter: opacity(100%);
+}
+.social-links3{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links3:hover {
+    filter: opacity(100%);
+}
+.social-links4{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    filter: opacity(40%);
+}
+.social-links4:hover {
+    filter: opacity(100%);
+}
+.logos hr{
+    border: none;
+    background: red;
+    height: 1px;
+    margin: 20px 0; 
+}
+.copyright{
+    text-align: center;
+    color: aliceblue;
+}
+.social{
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+#b-logo{
+    position: relative;
+    width: 10%;
+
+}
+.follow{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: x-large;
+    background-color: blue;
+}
+.icon-animation{
+    text-align: center;
+    text-decoration-color:blue;
+    display: inline-block;
+}
+#facebook{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: blue;
+}
+#instagram{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: magenta;
+}
+#twitter{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(39, 39, 187);
+}
+#whatsapp{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: green;
+}
+#github{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(0, 0, 0);
+}
