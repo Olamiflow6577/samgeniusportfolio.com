@@ -19,9 +19,12 @@
                 <div class="navbar">
                     <div class="logo">
                         <img src="images/New logo.png">
+
                     </div>
-                    <nav>
-                        <ul>
+                    <i class="fa fa-bars" id="menu-icon" onclick="changeIcon(this)"></i>
+                    
+                    <nav class="links">
+                        <ul class="MenuItems">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="aboutme.html">About</a></li>
                             <li><a href="services.html">Services</a></li>
@@ -34,15 +37,13 @@
         <div class="header">
             <div class="row2">
                 <p class="intro">Hey, I'm Sam-Genius(S.M.G),</p>
-                <h1 class="to-do">I'm a Software Developer<br> and Graphic designer</h1>
+                <h1 class="to-do">I'm a Software Developer<br>and Graphic designer</h1>
                 <a href="">Hire me  &#8594;</a>
                 <img src="images/pics1.png" id="imagepics">
             </div>
         </div>
+        <img src="images/background (2).jpg" id="imagebg">
     </div>
-    <img src="images/background (2).jpg" id="imagebg">
-
-    <hr>
     <br>
     <br>
 
@@ -146,6 +147,10 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <hr>
+    <br>
 
     
     <!--End lisiting the skills-->
@@ -155,10 +160,11 @@
         <br>
         <br>
         <p class="aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Eaque pariatur distinctio dolorum autem quos eveniet in.<br> Cupiditate est assumenda, explicabo facere inventore sed,<br>    minus at magni aperiam doloremque dicta quis. Lorem,<br>ipsum dolor sit amet consectetur adipisicing elit.<br> Nemo culpa assumenda magni ut, explicabo illum dolor<br> dolorum quod? Voluptatum reiciendis provident commodi cum<br> debitis atque similique, iure tempora itaque? Deserunt.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Eaque pariatur distinctio dolorum autem quos eveniet in.<br> Cupiditate est assumenda, explicabo facere inventore sed,<br>    minus at magni aperiam doloremque dicta quis.<a href="aboutme.html" id="see-more">...see more</a></p>
-        <img src="images/pics2.png" class="pics2">
-        <span class="invisible-pics"></span>
+        <div class="picsresponse">
+            <img src="images/pics2.png" class="pics2">
+            <span class="invisible-pics"></span>
+        </div>
     </div>
-    <br>
     <br>
 
 
@@ -189,6 +195,8 @@
     <hr>
         <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script>  All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Sam-Genius</a> </p>
 </div>
+
+
 
 <script>
     window.AcquaintedWidgetDomain = 'https://getacquainted.co';
