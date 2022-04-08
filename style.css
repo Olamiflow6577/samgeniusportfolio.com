@@ -396,11 +396,9 @@ a{
     padding-right: 5px;
     color: green;
 }
-#menu-icon{
+.bars img{
     position: absolute;
-    width: 5%;
     opacity: 0%;
-    color: #000;
     left: 740px;
     top: 30px;
 }
@@ -442,13 +440,16 @@ a{
     nav ul li a{
         color: antiquewhite;
     }
-    #menu-icon{
-        position: absolute;
-        color: #000;
-        width: 30px;
-        height: 30px;
-        left: 700px;
-        top: 20px;
+    .bars img{
+        position: relative;
+        width: 40px;
+        left: 650px;
+        top: 50px;
+        cursor: pointer;
+        opacity: 100;
+    }
+    nav ul li:hover .bars img{
+        transition: all 3s ease out 2s;
     }
     
     
@@ -460,10 +461,11 @@ a{
         transition: all 4s ease 0s;
         margin-bottom: 5px;
         cursor: pointer;
-
+        opacity: 0;
     }
     .logo img{
         position: absolute;
+        top: 30px;
         opacity: 60%;
         padding: 0;
         margin: 0;
@@ -515,6 +517,50 @@ a{
         width: 20px;
         height: 20px;
         transform: rotate(45deg);
+    }
+    .MenuItems{
+        visibility: visible;
+        opacity: 1;
+    }
+    .projects_items {
+        position: relative;
+    }
+    .projects_items:before {
+        content: "";
+          background: #000;
+          display: none;
+          position: absolute;
+          left: 700px;
+          top: 0px;
+          width: 800px;
+          height: 100%;
+          opacity: 0;
+          transition: all 300ms ease-out; 
+    }
+    .projects_items:hover:before {
+        opacity: 1; 
+    }
+    .projects_items:hover .projects_texts {
+        opacity: 1;
+        visibility: visible;
+        bottom: 20px; 
+    }
+    .projects_texts {
+        position: absolute;
+        width: 800px;
+        left: 0;
+        bottom: 0px;
+        transform: translateX(-0%);
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease 0s;
+        font-size: auto;
+         margin-bottom: 5px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     }
 }
 

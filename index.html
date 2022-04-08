@@ -18,19 +18,23 @@
             <div class="row1-fixed">
                 <div class="navbar">
                     <div class="logo">
-                        <img src="images/New logo.png">
-
+                        <img src="images/New logo.png" class="logo-icon">
                     </div>
-                    <i class="fa fa-bars" id="menu-icon" onclick="changeIcon(this)"></i>
-                    
-                    <nav class="links">
-                        <ul class="MenuItems">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="aboutme.html">About</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
+                    <div class="projects_items">
+                        <div class="bars">
+                            <img src="images/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406-removebg-preview (1).png" id="#menu-icons" onclick="menuToggle()">
+                        </div>
+                        <div class="projects_texts">
+                            <nav class="links">
+                                <ul class="MenuItems">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="aboutme.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -207,7 +211,16 @@
     document.body.appendChild(s);
 </script>
 
+<script>
+    let menuToggle = function(icon){
+    icon.classList.toggle('active')
+}
 
+    function menuToggle(){
+        const toggleMenu = document.querySelector('.menu');
+        toggleMenu.classlist.toggle('active')
+    }
+</script>
 
 </body>
 </html>
