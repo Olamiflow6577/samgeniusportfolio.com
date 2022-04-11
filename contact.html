@@ -16,15 +16,21 @@
                 <div class="logo">
                     <img src="images/New logo.png">
                 </div>
-                <i class="fa fa-bars" id="menu-icons" onclick="changeIcon(this)"></i>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutme.html">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+                <div class="projects_items">
+                    <div class="bars">
+                        <i class="fa fa-bars" id="#menu-icons" onclick="menuToggle()"></i>
+                    </div>
+                    <div class="projects_texts">
+                        <nav class="links">
+                            <ul class="MenuItems">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="aboutme.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -78,7 +84,7 @@
                             </div>
                         </div>
                         <div class="col-md-12 text-right">
-                            <button type="submit" value="submit" class="primary-btn">Send Message</button>
+                            <a href="thankyou.html"><button type="submit" value="submit" class="primary-btn">Send Message</button></a>
                         </div>
             </form>
         </div>

@@ -304,3 +304,170 @@ a{
     padding-right: 5px;
     color: rgb(0, 0, 0);
 }
+.bars i{
+    position: absolute;
+    opacity: 0%;
+    left: 740px;
+    top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .action{
+        position: fixed;
+        top: 20px;
+        right: 30px;
+    }
+    .action .profile{
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.5;
+    }
+    .links{
+        position: fixed;
+        width: 100%;
+        margin-right: 30px;
+        opacity: 70%;
+    }
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: -17px;
+        background: rgb(0, 0, 0);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: antiquewhite;
+    }
+    .bars i{
+        position: relative;
+        width: 40px;
+        left: 650px;
+        top: 50px;
+        cursor: pointer;
+        opacity: 100;
+        color: white;
+    }
+    nav ul li:hover .bars img{
+        transition: all 3s ease out 2s;
+    }
+    
+    
+    nav {
+        position: absolute;
+        width: 800px;
+        transform: translateY(-50%);
+        text-align: center;
+        transition: all 4s ease 0s;
+        margin-bottom: 5px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .logo img{
+        position: absolute;
+        top: 30px;
+        opacity: 60%;
+        padding: 0;
+        margin: 0;
+    } 
+    .logo img:hover {
+        opacity: 100%;
+    }
+    #imagepics{
+        position: absolute;
+        left: 460px;
+        top: 250px;
+    }
+    #imagebg{
+        position: absolute;
+        width: 100%;
+    }
+    .row2{
+        font-size: 19px;
+    }
+    .skills{
+        top: -40px;
+    }
+    .picsresponse{
+        position: relative;
+        left: -360px;
+    }
+    .aboutme{
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 470px;
+        font-size: large;
+        color: black;
+        text-align: center;
+        font-family: cursive;
+    }
+    .myself{
+        position: relative;
+        margin-top: 150px;
+        margin-left: 50px;
+        margin-right: 50px;
+        background-color: rgb(93, 156, 196);
+        height: 900px;
+    }
+    .links .MenuItems::before{
+        content: '';
+        position: absolute;
+        top: -5px;
+        width: 28px;
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+    }
+    .MenuItems{
+        visibility: visible;
+        opacity: 1;
+    }
+    .projects_items {
+        position: relative;
+    }
+    .projects_items:before {
+        content: "";
+          background: #000;
+          display: none;
+          position: absolute;
+          left: 700px;
+          top: 0px;
+          width: 800px;
+          height: 100%;
+          opacity: 0;
+          transition: all 300ms ease-out; 
+    }
+    .projects_items:hover:before {
+        opacity: 1; 
+    }
+    .projects_items:hover .projects_texts {
+        opacity: 1;
+        visibility: visible;
+        bottom: 20px; 
+    }
+    .projects_texts {
+        position: absolute;
+        width: 800px;
+        left: 0;
+        bottom: 0px;
+        transform: translateX(-0%);
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease 0s;
+        font-size: auto;
+         margin-bottom: 5px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    }
+}
