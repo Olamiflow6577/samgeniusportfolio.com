@@ -31,7 +31,7 @@ nav ul li{
     display: inline-block;
     margin-left: 30px;
     top: -5px;
-    left: 550px;
+    left: 450px;
 
     
 }
@@ -48,8 +48,7 @@ nav ul li{
 .row1{
     z-index: 1;
     position: fixed;
-    background-color: rgb(41, 59, 172);
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 0;
 
@@ -64,20 +63,25 @@ a{
     width: 100%;
     top: 100px;
 }
-.header{
+.container{
+    background-image: url('images/background (2).jpg');
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
     z-index: -1;
 }
 .row2{
     font-size: x-large;
-    margin-top: 320px;
+    margin-top: 200px;
     margin-left: 30px;
     color: aliceblue;
 }
 #imagepics{
     position: absolute;
     height: 60%;
-    left: 600px;
-    top: 170px;
+    margin-left: 600px;
+    top: 200px;
     border: solid white;
     border-radius: 30%;
     
