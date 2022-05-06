@@ -78,12 +78,12 @@ a{
     color: aliceblue;
 }
 #imagepics{
-    position: absolute;
-    height: 60%;
-    margin-left: 600px;
-    top: 200px;
+    position: relative;
     border: solid white;
     border-radius: 30%;
+    width: 30%;
+    bottom: 250px;
+    margin-left: 500px;
     
 }
 .row2 a{
