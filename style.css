@@ -59,7 +59,7 @@ a{
 #imagebg{
     z-index: -1;
     position: absolute;
-    height: 550px;
+    height: 300px;
     width: 100%;
     top: 100px;
 }
@@ -83,7 +83,7 @@ a{
     border-radius: 30%;
     width: 30%;
     bottom: 250px;
-    margin-left: 500px;
+    margin-left: 600px;
     
 }
 .row2 a{
